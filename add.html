@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>RealVideo Chat</title>
+  </head>
+  <body>
+    <div id="app">
+      <video class="large" playsinline autoplay id="you"></video>
+      <video class="small" playsinline autoplay id="friend"></video>
+      <div id="controls">
+        <button id="pause">
+          <img src="/pause.png" alt="pause" /></button
+        ><button id="mute">
+          <img src="/mute.png" alt="mute" /></button
+        ><button id="hangup">
+          <img src="/hangup.png" alt="hangup" />
+        </button>
+        <button id="share">
+          <img src="/share.png" alt="share" />
+        </button>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
